@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Loja de Informática</title>
+</head>
+
+<body>
+
+    <header>
+        ssdds
+    </header>
+
+    <h1>Loja de Informática</h1>
+
+    <section id="produtos-loja">
+
+        <section>
+
+            <div class="titulos">
+                <h2>Categoria</h2>
+                <h2>Descrição</h2>
+                <h2>Valor</h2>
+                <h2></h2>
+            </div>
+
+            <div class="linha-items">
+                <span>Processador</span>
+                <span>Intel Core I5-12400F 2.5GHZ</span>
+                <span>699,00</span>
+                <div><button onclick="addCarrinho('produto 1', 10)">Comprar</button></div>
+
+            </div>
+
+            <div class="linha-items">
+                <span>Processador</span>
+                <span>Intel Core I5-12400F 2.5GHZ</span>
+                <span>699,00</span>
+                <div><button onclick="addCarrinho('produto 2', 80)">Comprar</button></div>
+
+            </div>
+            <div class="linha-items">
+                <span>Processador</span>
+                <span>Intel Core I5-12400F 2.5GHZ</span>
+                <span>699,00</span>
+                <div><button onclick="addCarrinho('produto 3', 100)">Comprar</button></div>
+            </div>
+        </section>
+
+        <section class="resumo">
+
+            <div class="resumo-titulo">
+
+                <span>Item</span>
+                <span>Quantidade</span>
+                <span>Valor</span>
+                <span></span>
+
+            </div>
+
+          
+
+            <div class="carrinho">
+                <div id="carrinho-itens"></div>
+                <p>Total: R$ <span id="carrinho-total">0</span></p>
+                <button onclick="fecharPedido()">Finalizar Compra</button>
+        
+            </div>
+
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
