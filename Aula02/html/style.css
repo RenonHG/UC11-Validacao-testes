@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+
+#calculadora {
+
+    display: flex;
+    flex-direction: column;
+    
+   
+    background-color: aliceblue;
+}
+
+#calculadora section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
