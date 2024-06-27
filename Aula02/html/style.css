@@ -1,43 +1,47 @@
-body{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
     background-color: grey;
+
 }
 
 #calculadora {
 
     display: flex;
     flex-direction: column;
-    
     width: 800px;
-    background-color: grey;
 
+    background-color: grey;
     border-radius: 25px;
     border: 2px solid black;
     padding: 10px 20px;
     gap: 20px;
 }
-#calculadora header{
+
+#calculadora header {
     border-bottom: 2px solid black;
     text-align: center;
 }
-#calculadora section{
+
+#calculadora section {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid black;
-
 }
 
-#calculadora footer{
+#calculadora footer {
     border-bottom: 2px solid black;
-
 }
 
 /* --------------- Botões ---------------*/
-#calculadora input , select{
+#calculadora input, select {
     margin-bottom: 20px;
 }
 
-#calculadora section input[type="submit"]{
-
-width: 100px;
+#calculadora section input[type="submit"] {
+    width: 100px;
 
 }
